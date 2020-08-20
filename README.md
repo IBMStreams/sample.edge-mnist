@@ -4,7 +4,7 @@ The sample.edge-mnist is a sample that demonstrates IBM’s Cloud Pak for Data (
 
 The sample consists of 2 main parts:
 
-<img src="https://github.com/IBMStreams/sample.edge-mnist/blob/main/screenshots/architecture.png" width="650"> 
+<img src="https://github.com/IBMStreams/sample.edge-mnist-flows/blob/main/screenshots/architecture.png" width="650"> 
 
 1. The Streams Flows - An IBM Streams app (developed using Streams Flows) running on remote edge systems, where real-time data from IOT devices (or in our case the static MNIST dataset) is processed and scored, with metrics being sent back to the CP4D hub for further analysis. For an overview of Streams Flows, click [here](https://www.youtube.com/watch?v=rVTOnt0nbDA) 
 
@@ -70,7 +70,7 @@ To get started with building the edge-mnist sample application, clone this repo 
     - Click the "Add attributes from incoming schema". These attributes will be greyed out. 
     -  Click "Add Attributes" twice. For the first attribute name enter "result_class" with "Number" as the type, and "prediction" as model field. For the second attribute name enter "predictions" with "Text as the type, and "probability" as the model field. The attributes list should now appear similar to the image below.
     - For more information, please click [here](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/wsj/streaming-pipelines/wml_operator.html)
-    - <img src="https://github.com/IBMStreams/sample.edge-mnist/blob/main/screenshots/output_schema.png" width="500">
+    - <img src="https://github.com/IBMStreams/sample.edge-mnist-flows/blob/main/screenshots/output_schema.png" width="500">
   - Set up Kafka
     - As said earlier, the edge nodes send metrics back for further analysis. For this sample, we use 1 kafka topic to send both metrics on low scoring images, and aggregate metrics from all the data being scored.
     - If you already have your own kafka implementation, feel free to use that, if not, you can sign up for a free IBM cloud account by clicking [here](https://www.ibm.com/cloud/free)
@@ -83,7 +83,7 @@ To get started with building the edge-mnist sample application, clone this repo 
   - Ensure necessary packages are installed and parameters are populated
     - While still in the Streams Flows edit page, select the settings button in the top left of the toolbar
     - Make sure that both panels have parameters and python packages set as in the image below
-    - <img src="https://github.com/IBMStreams/sample.edge-mnist/blob/main/screenshots/settings.png" width="250"> | <img src="https://github.com/IBMStreams/sample.edge-mnist/blob/main/screenshots/packages.png" width="250"> 
+    - <img src="https://github.com/IBMStreams/sample.edge-mnist-flows/blob/main/screenshots/settings.png" width="250"> | <img src="https://github.com/IBMStreams/sample.edge-mnist-flows/blob/main/screenshots/packages.png" width="250"> 
   - As a final check to make sure everything is working, you can run the Streams Flows app
     - To do this first ensure that there are no red dots on any of the nodes. This indicates an error that requires fixing.
     - If there are no red dots, select the "save and run" button in the top left of the toolbar
