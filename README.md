@@ -96,11 +96,11 @@ To get started with building the edge-mnist sample application, clone this repo 
   - Build the edge app
     - If there are no errors, click the stop icon to quit the app
     - Now click the "Edit the Streams Flows" button, and in the top left corner click the "Build as Edge Analytics Application" button
-    - For further instruction, see [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.5.0/svc-edge/developing-build.html)
+    - For further instruction, see [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.0.1/svc-edge/developing-build.html)
   - Package the edge app
-    - Once the edge app is built, we need to package it and prepare it for edge deployment. The link [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.5.0/svc-edge/usage-register-app.html) has more information on this
+    - Once the edge app is built, we need to package it and prepare it for edge deployment. The link [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.0.1/svc-edge/usage-register-app.html) has more information on this
   - Deploying to the edge
-    - Finally we can deploy the app to the edge, for more information, please click [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.5.0/svc-edge/usage-deploy.html)
+    - Finally we can deploy the app to the edge, for more information, please click [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.0.1/svc-edge/usage-deploy.html)
 
 
 #### 4. Notebook app
