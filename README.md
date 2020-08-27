@@ -1,28 +1,28 @@
 # sample.edge-mnist-flows
 
-The sample.edge-mnist is a sample that demonstrates IBM’s Cloud Pak for Data (CP4D) Edge Analytics on the popular MNIST dataset. 
+The sample.edge-mnist is a sample that demonstrates IBM’s Cloud Pak for Data (CPD) Edge Analytics on the popular MNIST dataset. 
 
 The sample consists of 2 main parts:
 
 <img src="https://github.com/IBMStreams/sample.edge-mnist-flows/blob/main/screenshots/arch.png" width="720"> 
 
-1. The Streams Flows - An IBM Streams app (developed using Streams Flows) running on remote edge systems, where real-time data from IOT devices (or in our case the static MNIST dataset) is processed and scored, with metrics being sent back to the CP4D hub for further analysis. For an overview of Streams Flows, click [here](https://www.youtube.com/watch?v=rVTOnt0nbDA) 
+1. The Streams Flows - An IBM Streams app (developed using Streams Flows) running on remote edge systems, where real-time data from IOT devices (or in our case the static MNIST dataset) is processed and scored, with metrics being sent back to the CPD hub for further analysis. For an overview of Streams Flows, click [here](https://www.youtube.com/watch?v=rVTOnt0nbDA) 
 
 2. The Notebook -  A python Jupyter notebook that creates an IBM Streams app on Cloud Pak for Data (CPD) to receive data from the remote edge systems (through Apache Kafka) for further processing of the data.
 	
 ## Requirements 
-- IBM Cloud Pak for Data (CP4D) Cluster v3.0.1 with [Streams / Streams Flows](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/streams.html) and [Watson Machine Learning](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wml.html) installed 
-- [CP4D Edge Analytics beta](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.0.1/svc-welcome/edge.html)
-- [CP4D Streams instance](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/streams/provision.html)
+- IBM Cloud Pak for Data (CPD) Cluster v3.0.1 with [Streams / Streams Flows](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/streams.html) and [Watson Machine Learning](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/svc-welcome/wml.html) installed 
+- [CPD Edge Analytics beta](https://www.ibm.com/support/knowledgecenter/SSQNUZ_3.0.1/svc-welcome/edge.html)
+- [CPD Streams instance](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/streams/provision.html)
 - Kafka / [IBM Event Streams](https://www.ibm.com/cloud/event-streams) implementation with at least 1 topic
 - Familiarity with Python, IBM Streams, WML and Kafka/IBM Event Streams
 
 ## Instructions 
 To get started with building the edge-mnist sample application, clone this repo and follow the steps below
 
-#### 1. Set up CP4D Project 
-- Create a CP4D project with git integration and Jupyterlab IDE
-  - On the CP4D new project page, create a new empty project, choose a name and check the git integration box underneath
+#### 1. Set up CPD Project 
+- Create a CPD project with git integration and Jupyterlab IDE
+  - On the CPD new project page, create a new empty project, choose a name and check the git integration box underneath
   - On Github, create a [personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) with repo access (first checkbox) and copy the token
   - On the new project page, click 'New Token', paste the access token, give it a name, and finally click "Continue"
   - Back on Github, create an empty Git repo (e.g. mnist) and copy the HTTPS url for the repo
