@@ -4,7 +4,7 @@ The sample.edge-mnist is a sample that demonstrates IBM’s Cloud Pak for Data (
 
 The sample consists of 2 main parts:
 
-<img src="https://github.com/IBMStreams/sample.edge-mnist-flows/blob/main/screenshots/architecture.png" width="650"> 
+<img src="https://github.com/IBMStreams/sample.edge-mnist-flows/blob/main/screenshots/arch.png" width="720"> 
 
 1. The Streams Flows - An IBM Streams app (developed using Streams Flows) running on remote edge systems, where real-time data from IOT devices (or in our case the static MNIST dataset) is processed and scored, with metrics being sent back to the CP4D hub for further analysis. For an overview of Streams Flows, click [here](https://www.youtube.com/watch?v=rVTOnt0nbDA) 
 
