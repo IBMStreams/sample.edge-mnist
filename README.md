@@ -53,7 +53,7 @@ To get started with building the edge-mnist sample application, clone this repo 
 
 
 #### 2. Streams Flows app
-- Upload flow app to CP4D (the `sample.edge-mnist.stp` file)
+- Upload flow app to CPD (the `sample.edge-mnist.stp` file)
   - Exit out of Jupyterlab IDE and go back to your project
   - Click the assets tab, select the blue "Add to project" button, select Streams Flows, from file. 
   - From there, choose a name, select an existing Streams instance, then click create
