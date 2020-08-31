@@ -105,7 +105,7 @@ To get started with building the edge-mnist sample application, clone this repo 
 
 #### 4. Notebook app
 - After deploying the Streams Flow app to the edge, we can now create the IBM Streams app in Cloud Pak for Data that receives and process the scored images from the edge
-- To do this, go back into your CPD project, and launch Jupyterlab IDE
+- To do this, go back into your CP4D project, and launch Jupyterlab IDE
 - In the same directory as before `project_git_repo/<github-repo-name>/assets/jupyterlab/`, open `build-metro-app.ipynb`
   - Fill in the Streams instance name, Kafka topic name, and follow the instructions in the cells to input Kafka credentials. Run the rest of the cells to build and start the application.
 - Once the application is up and running, open `render-metro-view.ipynb`, fill in the Streams instance name and run the cells to  preview the data.
