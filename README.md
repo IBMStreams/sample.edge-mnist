@@ -41,7 +41,7 @@ To get started with building the edge-mnist sample application, clone this repo 
     - `metrorender.py`
     - `render-metro-view.ipynb`
     - `model_upload.ipynb`
-    - `sklearn-SVC-model`
+    - `sklearn-023-SVC-model`
  
  - Upload model & create deployment
    - While still in Jupyterlab, open and follow the instructions in the script `model_upload.ipynb` to populate it with the required details. Finally run it to upload the model
